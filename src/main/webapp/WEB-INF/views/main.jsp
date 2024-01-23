@@ -78,7 +78,7 @@
             <div class="user_option" style="
             margin-left: 100px;
 				">
-				<div class="dropdown">
+				<div class="dropdown user-icon">
               <a href="" class="user_link dropdown topbar-dropdown" data-toggle="dropdown">
                 <i class="fa fa-user" aria-hidden="true">
                 </i>
@@ -88,8 +88,16 @@
 				<a class="dropdown-item" href="#">회원가입</a> 
 				</div>
 				</div>
-				<div class="user-search">
-                  <i class="fa fa-search"></i>
+				<div class="dropdown">
+				<a href="" class="dropdown topbar-dropdown user-search" data-toggle="dropdown">
+                <i class="fa fa-search"></i>
+                </a>
+                <div class="dropdown-menu search-menu" aria-labelledby="dropdownMenuButton">
+				<div class="search-bar">
+ 				 <input type="text" placeholder="검색어 입력">
+  				 <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+				 </div>
+				</div>
 				</div>
               <div class="dropdown">
               <a href="#" class="order_online dropdown topbar-dropdown" data-toggle="dropdown">
@@ -98,6 +106,7 @@
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item" href="#"></a>
               </div>
+            </div>
             </div>
           </div>
         </nav>

@@ -41,6 +41,33 @@ body {
 .dropdown-item:hover{
 	background-color: #FFD369;
 }
+.search-menu{
+	width: 0px;
+	height: 0px;
+	border-radius: 15px;
+}
+
+.search-bar {
+  position: relative;
+  width: 300px;
+  bottom: 10px;
+}
+
+.search-bar > input {
+  width: 100%;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.search-bar > img {
+  position : absolute;
+  width: 17px;
+  top: 10px;
+  right: 12px;
+  margin: 0;
+}
 /* /상단바 */
 
 /* 메인 */
